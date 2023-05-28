@@ -8,7 +8,7 @@
     <link href="/styles/fonts.css" rel="stylesheet">
     <link href="/styles/media.css" rel="stylesheet">  
     <link href="/styles/slider.css" rel="stylesheet">  
-    <link rel="shortcut icon" href="./components/images/LOGOVoidTech.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./components/images/LogoVoidTech.svg" type="image/x-icon">
     
     <script src="jquery/jquery-3.6.0.min.js"></script>    
     <script src="jQuery-Mask-Plugin-master/src/jquery.mask.js"></script>
@@ -26,13 +26,18 @@
         <nav id="nav-menu">
             <div id="title" class="menu-logo">
                 <a href="#">
-                    <img src="./components/images/LOGOVoidTech.png">
+                    <img src="./components/images/LogoVoidTech.svg">
                 </a>
             </div>
             <div id="menu-links">
                 <ul>
                     <a href="#"><li>Início</li></a>
-                    <a href="#Servicos"><li>Serviços</li></a>
+                    <div class="dropdown">
+                        <a href="#Servicos"><li>Serviços</li></a>
+                        <div class="dropdown-content">
+                            <a href="#">Vo<span class="txtLaranja">i</span>dDash</a>
+                        </div>
+                    </div>
                     <a href="#Sobre"><li>Sobre Nós</li></a>
                     <a href="#Notificacao" id="inscreva-se-btn"><li>Receber Notificações</li></a>
                 </ul>
@@ -208,8 +213,7 @@
                 <input type="text" placeholder="Nome">
                 <input type="email" placeholder="E-mail">
                 <input type="text" placeholder="Telefone" name="txtTelefone" id="" class="txtTelefone">
-                <textarea id="comentarios" name="comentarios" rows="5" cols="50">
-                </textarea> 
+                <textarea id="comentarios" name="comentarios" rows="5" cols="50"></textarea> 
                <button type="submit" id="btnSeguinte" value="Seguinte >">Seguinte ></button>
             </form>
         </aside>
@@ -219,13 +223,11 @@
         </article>
     </section>
 
-
-
         <footer>    
             <div id="footer-top">
                 <div id="div-esquerda-rodape">
-                    <a href="#"><img src="./components/images/LOGOVoidTech.png" alt="logo void tech"></a> 
-                    <p>&copy;2022 VoidTech. Todos direitos reservados.</p>
+                    <a href="#"><img src="./components/images/LogoVoidTech.svg" alt="logo void tech"></a> 
+                    <p>&copy;2023 VoidTech. Todos direitos reservados.</p>
                 </div>
             </div>
             <div id="footer-bottom">              
@@ -243,7 +245,7 @@
                         <h6>Contato</h6>
                     </a>
                     <div id="icons">
-                        <a href="https://github.com/Gugzera/VoidTech" target="_blank"><img
+                        <a href="https://github.com/GustavoGomesDaSilva/VoidTech-Empresa" target="_blank"><img
                                 src="./components/images/githubIcon.png"
                                 alt="icone do github, que leva até o projeto do VoidTech"></a>
                         <a href="https://linktr.ee/devsvoidtech" target="_blank"><img src="./components/images/EnvelopeSimple.png"
