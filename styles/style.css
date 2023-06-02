@@ -401,14 +401,19 @@ form{
     width: 70%;
 }
 
-form [type="submit"]{
+form button{
     height: 50px;
     width: 50%;
     background-color: #840ec9;
-    color: white;
+    /* color: white; */
     font-weight: bold;
 }
-form [type="submit"]:hover{
+form button a{
+    text-decoration: none;
+    color: white;
+
+}
+form button:hover{
     cursor: pointer;
 }
 

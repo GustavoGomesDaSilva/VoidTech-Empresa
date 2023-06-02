@@ -214,7 +214,9 @@
                 <input type="email" placeholder="E-mail">
                 <input type="text" placeholder="Telefone" name="txtTelefone" id="" class="txtTelefone">
                 <textarea id="comentarios" name="comentarios" rows="5" cols="50"></textarea> 
-                <button type="submit" id="btnSeguinte"  onclick="suporte()">Contate-nos</button>
+                <button  id="btnSeguinte"  >
+                  <a href="https:voidtech-suporte.freshdesk.com/support/home" target="_blank"> Contate-nos</a> 
+                </button>
                
             </form>
         </aside>
@@ -260,11 +262,7 @@
         
 <script>
     $('.txtTelefone').mask('(00)00000-0000');
-    function suporte(){
-        // window.location.href="https:voidtech-suporte.freshdesk.com/support/home" 
-        window.open('https:voidtech-suporte.freshdesk.com/support/home', '_blank')
-    }
-
+   
 </script>
 
 <script src="script.js">
