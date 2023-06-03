@@ -399,6 +399,7 @@ form{
     display: flex;
     flex-direction: column;
     width: 70%;
+    margin-bottom: 5vh;
 }
 
 form button{
@@ -448,18 +449,33 @@ input{
     outline-offset: 0px;
     outline: none;
 }
+
+#linkBtn{
+    width: auto ;
+    /* background-color: #ffa500; */
+    width: fit-content;
+    /* height: 6vh; */
+    height: fit-content;
+    z-index: 10;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
 #btnSeguinte{
     background-color: #840ec9;
+    cursor: pointer;
+
     font-size: 20px;
     width: 15vw;
-    margin-top: 5vh;
+    height: 10vh;
+    /* margin-top: 5vh; */
     border: #840ec9 solid 1px;
     border-radius: 15px;
     box-shadow: rgb(10, 10, 10) 5px 5px 5px;
+    color: #ccc;
+
+
 }
-
-
-
 footer {
     position: relative;
     width: 95.85vw;
