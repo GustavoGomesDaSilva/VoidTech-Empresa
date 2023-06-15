@@ -224,6 +224,9 @@ img{
     margin-bottom: 6vh;
 }
 
+/*  */
+
+/*  */
 #tituloServicos h3{
     text-align: center;
     /* margin-top: -2vh; */
@@ -278,6 +281,7 @@ img{
 .cardRoxo a:hover{
     text-decoration: underline;
     color: #ffa500;
+    /* background-color: #bb62ff; */
 }
 
 .cardLaranja{
@@ -358,13 +362,14 @@ img{
     align-items: center;
     /* margin-top: 1px; */
     height: fit-content;
-    width: auto;
+    width: 90%;
     padding-left: 3vw;
+    margin: auto;
     margin-bottom: 30px;
     /* margin-bottom: 30px; */
 }
 #Notificacao article{
-    margin-right: 6vw;
+    /* margin-right: 6vw; */
 }
 
 #conteudoNotificacao{
